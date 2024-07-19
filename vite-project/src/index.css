@@ -1,0 +1,29 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bgc {
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    background-image: linear-gradient(
+      45deg,
+      rgba(65, 21, 46, 0.667) 30%,
+      rgb(66, 112, 112),
+      rgba(68, 29, 65, 0.676) 70%
+    );
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  .navbar {
+    @apply w-full h-32 bg-transparent;
+  }
+}
