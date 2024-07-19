@@ -20,7 +20,7 @@ function Home() {
           </div>
 
           <li className=" mr-5  ">
-            <button className="  hover:text-white hover:bg-purple-900 hover:ring-0 hover:translate-x-2 shadow-2xl[0 0 10px-red]  ring ring-black ring-opacity-20  px-10 py-2  font-serif rounded-full">
+            <button className="  hover:text-white hover:bg-purple-600 hover:ring-0 hover:translate-x-2 shadow-2xl[0 0 10px-red]  ring ring-black ring-opacity-20  px-10 py-2  font-serif rounded-full">
               {" "}
               SIGN UP{" "}
             </button>
